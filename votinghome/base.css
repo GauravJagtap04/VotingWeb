@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(40deg, crimson, 80%, beige);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+}
+
+.pro-name{
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    color: beige;
+    display: inline;
+    width: 100vw;
+    height: 5vh;
+    background: fixed black;
+}
+
+.pro-name h1{
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin: 0;
+}
