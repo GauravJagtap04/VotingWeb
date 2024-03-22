@@ -1,0 +1,11 @@
+asgiref==3.7.2
+certifi==2023.7.22
+charset-normalizer==3.2.0
+cmake==3.28.3
+colorama==0.4.6
+distlib==0.3.7
+django==3.2.25
+dj-database-url==2.1.0
+django-filter==2.1
+virtualenv==20.24.2
+virtualenv-clone==0.5.7
