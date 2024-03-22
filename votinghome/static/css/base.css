@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, crimson, 80%, beige);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.pro-name{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    background-color: #C2B280;
+    box-sizing: border-box;
+    backdrop-filter: blur(10rem);
+    padding-left: 20px;
+    filter: blur(.3px);
+}
+
+.pro-name .web-name{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: beige;
+    padding: 0;
+    margin-right: 0;
+    padding-right: 10px;
+}
+
+.pro-name .field-first{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    color: beige;
+    padding: 0;
+    text-align: right;
+    margin-left: 25vw;
+}
+
+.pro-name .field{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    color: beige;
+    padding: 0;
+    text-align: right;
+    margin-left: 3vw;
+}
+
+.sign-up,
+.log-in{
+    width: 40vw;
+    height: 3vh;
+}
+
+.sign-up{
+    margin-top: 20vh;
+}
+
+.log-in{
+    margin-top: 150px;
+}
+
+.sign-up-border,
+.log-in-border{
+    border: 2px solid #0000007c;
+    border-radius: 15px;
+    margin-left: 10vw;
+}
+
+.s-button{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4vw;
+    text-align: center;
+}
