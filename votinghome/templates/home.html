@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block title %}
+        <title>Home Page</title>
+    {% endblock %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Montserrat:wght@300&family=Nunito:wght@300&family=Open+Sans&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static "css/base.css" %}" />
+    <link rel="shortcut icon" href="{% static "icons/poll.png" %}" type="image/x-icon">
+</head>
+<body>
+    <div class="page">
+        {% block navbar %}
+            <div class="pro-name">
+                <h1 class="web-name"><a href="{% url BASE_DIR "/votinghome/" %}">Voting Application</a></h1>
+                <h1 class="field-first">Home</h1>
+                <h1 class="field">About Us</h1>
+                <h1 class="field">Create Poll</h1>
+                <h1 class="field">Active Polls</h1>
+                <h1 class="field">Result</h1>
+            </div>
+        {% endblock navbar %}
+
+        {% block signup %}
+            <div class="sign-up">
+                <div class="sign-up-border">
+                    <h2 class="s-button">Sign Up</h2>
+                </div>
+            </div>
+        {% endblock signup %}
+
+        {% block login %}
+            <div class="log-in">
+                <div class="log-in-border">
+                    <h2 class="s-button">Login</h2>
+                </div>
+            </div>
+        {% endblock login %}
+    </div>
+</body>
+</html>
